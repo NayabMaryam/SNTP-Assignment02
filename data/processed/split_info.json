@@ -1,0 +1,29 @@
+{
+  "dataset": "Epinions (Trustlet)",
+  "n_users": 4346,
+  "n_items": 6109,
+  "n_ratings_total": 188303,
+  "n_train": 150721,
+  "n_test": 37582,
+  "n_edges_filtered": 122505,
+  "sparsity_all": 0.9929075318852776,
+  "rating_min": 1.0,
+  "rating_max": 5.0,
+  "rating_mean": 3.87162184715271,
+  "filtering": {
+    "min_item_ratings": 10,
+    "min_user_ratings": 20,
+    "min_co_rated_for_sim": 5
+  },
+  "test_frac": 0.2,
+  "seed": 42,
+  "observed": [
+    "train.csv",
+    "test.csv",
+    "edges.csv (trust links)",
+    "ratings in train/test"
+  ],
+  "inferred": [
+    "edge 'weight' column (Pearson similarity of raters)"
+  ]
+}
